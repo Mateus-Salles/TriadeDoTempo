@@ -1,0 +1,40 @@
+unit U_fase1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    lb_titulo: TLabel;
+    lb_opcoes: TLabel;
+    lb_per1: TLabel;
+    lb_per2: TLabel;
+    lb_per3: TLabel;
+    lb_per4: TLabel;
+    lb_per5: TLabel;
+    btn_prox1: TButton;
+    btn_fechar1: TButton;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    ComboBox3: TComboBox;
+    ComboBox4: TComboBox;
+    ComboBox5: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

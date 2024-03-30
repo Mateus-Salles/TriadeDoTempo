@@ -1,0 +1,24 @@
+program Triadedotempo;
+
+uses
+  Vcl.Forms,
+  U_loading in 'U_loading.pas' {loading},
+  U_fase1 in 'U_fase1.pas' {Form1},
+  U_fase2 in 'U_fase2.pas' {Form2},
+  U_fase3 in 'U_fase3.pas' {Form3},
+  U_fase4 in 'U_fase4.pas' {Form4},
+  U_result in 'U_result.pas' {frm_resultado};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tloading, loading);
+  Application.CreateForm(TFrm_fase1, Frm_fase1);
+  Application.CreateForm(TFrm_fase2, Frm_fase2);
+  Application.CreateForm(TFrm_fase3, Frm_fase3);
+  Application.CreateForm(TFrm_fase4, Frm_fase4);
+  Application.CreateForm(Tfrm_resultado, frm_resultado);
+  Application.Run;
+end.

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/04/11 09:25:52.000.631,=C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/04/11 09:27:56.000.383,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\352_2023\Maneca\U_loading.pas</Transaction>
+    <Transaction>2023/04/11 09:27:56.000.383,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\352_2023\Maneca\U_loading.dfm</Transaction>
+    <Transaction>2023/04/11 09:28:04.000.597,C:\Users\3os Anos\Documents\Embarcadero\Studio\Projects\Project3.dproj=C:\352_2023\Maneca\Triadedotempo.dproj</Transaction>
+    <Transaction>2023/04/11 09:31:07.000.313,=C:\352_2023\Maneca\Unit1.pas</Transaction>
+    <Transaction>2023/04/11 09:32:08.000.866,C:\352_2023\Maneca\Unit1.pas=C:\352_2023\Maneca\U_fase1.pas</Transaction>
+    <Transaction>2023/04/11 09:32:08.000.866,C:\352_2023\Maneca\Unit1.dfm=C:\352_2023\Maneca\U_fase1.dfm</Transaction>
+    <Transaction>2023/04/11 10:24:16.000.092,=C:\352_2023\Maneca\Unit2.pas</Transaction>
+    <Transaction>2023/04/11 10:24:29.000.568,C:\352_2023\Maneca\Unit2.dfm=C:\352_2023\Maneca\U_fase2.dfm</Transaction>
+    <Transaction>2023/04/11 10:24:29.000.568,C:\352_2023\Maneca\Unit2.pas=C:\352_2023\Maneca\U_fase2.pas</Transaction>
+    <Transaction>2023/04/11 10:31:03.000.431,=C:\352_2023\Maneca\Unit3.pas</Transaction>
+    <Transaction>2023/04/11 10:34:58.000.196,C:\352_2023\Maneca\Unit3.dfm=C:\352_2023\Maneca\U_fase3.dfm</Transaction>
+    <Transaction>2023/04/11 10:34:58.000.196,C:\352_2023\Maneca\Unit3.pas=C:\352_2023\Maneca\U_fase3.pas</Transaction>
+    <Transaction>2023/04/11 10:35:20.000.553,=C:\352_2023\Maneca\Unit4.pas</Transaction>
+    <Transaction>2023/04/11 10:39:51.000.936,C:\352_2023\Maneca\Unit4.pas=C:\352_2023\Maneca\U_fase4.pas</Transaction>
+    <Transaction>2023/04/11 10:39:51.000.936,C:\352_2023\Maneca\Unit4.dfm=C:\352_2023\Maneca\U_fase4.dfm</Transaction>
+    <Transaction>2023/04/11 11:58:54.000.356,=C:\352_2023\Maneca\Unit5.pas</Transaction>
+    <Transaction>2023/04/11 11:59:28.000.565,C:\352_2023\Maneca\U_result.pas=C:\352_2023\Maneca\Unit5.pas</Transaction>
+    <Transaction>2023/04/11 11:59:28.000.565,C:\352_2023\Maneca\U_result.dfm=C:\352_2023\Maneca\Unit5.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

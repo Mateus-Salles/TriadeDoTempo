@@ -1,0 +1,46 @@
+unit U_fase4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage, U_fase3,
+  Vcl.ExtCtrls;
+
+type
+  Tfrm_fase4 = class(TForm)
+    Image1: TImage;
+    lb_titulo: TLabel;
+    lb_opcoes: TLabel;
+    lb_per16: TLabel;
+    lb_17: TLabel;
+    lb_per18: TLabel;
+    btn_enviar: TButton;
+    btn_fechar1: TButton;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    ComboBox3: TComboBox;
+    btn_voltar: TButton;
+    lb_per15: TLabel;
+    ComboBox5: TComboBox;
+    procedure btn_voltarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_fase4: Tfrm_fase4;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tfrm_fase4.btn_voltarClick(Sender: TObject);
+begin
+  frm_fase4.visible := false;
+  frm_fase3.visble := true;
+end;
+
+end.

@@ -1,0 +1,68 @@
+unit U_result;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, U_fase4;
+
+type
+  Tfrm_resultado = class(TForm)
+    procedure FormActivate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frm_resultado: Tfrm_resultado;
+  sum_A, sum_B, sum_C, sum_Total:Integer;
+  porc_A, porc_B, porc_C:double;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tfrm_resultado.FormActivate(Sender: TObject);
+var
+  sum, i:integer;
+begin
+  sum := 0;
+
+  for i := 0 to 5 do
+  begin
+    sum := sum + frm_fase4.conj_A[i];
+  end;
+
+  sum_A := sum;
+  sum := 0;
+
+  for i := 0 to 5 do
+  begin
+    sum := sum + frm_fase4.conj_B[i];
+  end;
+
+  sum_B := sum;
+  sum := 0;
+
+  for i := 0 to 5 do
+  begin
+    sum := sum + frm_fase4.conj_C[i];
+  end;
+
+  sum_C := sum;
+
+  sum_Total := sum_C + sum_B + sum_A;
+
+  porc_A := sum_A / sum_Total * 100;
+
+  porc_B := sum_B / sum_Total * 100;
+
+  porc_C := sum_C / sum_Total * 100;
+
+
+
+end;
+
+end.

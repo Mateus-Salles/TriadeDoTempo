@@ -1,0 +1,16 @@
+program Triadedotempo;
+
+uses
+  Vcl.Forms,
+  U_loading in 'U_loading.pas' {loading},
+  U_fase1 in 'U_fase1.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tloading, loading);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
